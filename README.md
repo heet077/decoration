@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # decoration
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# decoration
+>>>>>>> bd6d21898783db70f3e9e5460cde2ffebbd95a8f
