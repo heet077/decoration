@@ -9,7 +9,7 @@ class SplashScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       body: SizedBox.expand(
         child: Image.asset(
-          'assets/images/Hariprabodham.jpeg',
+          'assets/images/swamiji.jpg',
           fit: BoxFit.cover,
         ),
       ),

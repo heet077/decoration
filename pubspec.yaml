@@ -11,9 +11,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  image_picker: ^1.0.7
+  flutter_riverpod: ^2.4.9
   cupertino_icons: ^1.0.8
   pdf: ^3.11.3
   printing: ^5.14.2
+  device_preview: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -31,9 +34,4 @@ flutter_launcher_icons:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/applogo.png
-    - assets/images/pjdas.jpg
-    - assets/images/pjdas09.jpg
-    - assets/images/pjdas09.png
-    - assets/images/pj0936.png
-    - assets/images/Hariprabodham.jpeg
+    - assets/images/
