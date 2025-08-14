@@ -95,7 +95,7 @@ class _EventScreenState extends ConsumerState<EventScreen> {
             height: _isSearchBarVisible ? 60 : 0,
             child: _isSearchBarVisible
                 ? Padding(
-                    padding: const EdgeInsets.all(12),
+                    padding: const EdgeInsets.only(top: 8,left: 8,right: 8,bottom: 8),
                     child: TextField(
                       controller: _searchController,
                       decoration: InputDecoration(
@@ -194,7 +194,7 @@ class _EventScreenState extends ConsumerState<EventScreen> {
                               ),
                             ),
                             Container(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(10),
                               decoration: BoxDecoration(
                                 color: AppColors.primary.withOpacity(0.1),
                                 borderRadius: BorderRadius.circular(10),
